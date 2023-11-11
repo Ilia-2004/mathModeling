@@ -4,7 +4,7 @@ namespace fourTask
 {
   internal abstract class Program
   {
-    private static float F(float x, float y) => x + 3 * y;
+    private static float F(float x1, float x2) => (2 * x1) + (3 * x2);
     
     public static void Main(string[] args)
     {
@@ -14,10 +14,9 @@ namespace fourTask
       float x, y, x1 = 0, x2 = 0; 
       float max = -100;
       
-      a[0, 0] = 1; a[0, 1] = 4; b[0] = 4;
-      a[1, 0] = 1; a[1, 1] = 1; b[1] = 6;
-      a[2, 0] = 1; a[2, 1] = 0; b[2] = 2;
-      a[3, 0] = 0; a[3, 1] = 1; b[3] = 0;
+      a[0, 0] = 8;  a[0, 1] = -5; b[0] = 11;
+      a[1, 0] = -1; a[1, 1] = 3; b[1] = 1;
+      a[2, 0] = 2;  a[2, 1] = 7; b[2] = 7;
 
       for (var i = 0; i < n; i++)
       { 
@@ -35,16 +34,13 @@ namespace fourTask
               switch (k)
               {
                 case 1:
-                  if (a[k, 0] * x + a[k, 1] * y < b[k]) t = 0;
+                  if (a[k, 0] * x + a[k, 1] * y <= b[k]) t = 0;
                   break;
                 case 2:
-                  if (a[k, 0] * x + a[k, 1] * y > b[k]) t = 0;
+                  if (a[k, 0] * x + a[k, 1] * y <= b[k]) t = 0;
                   break;
                 case 3:
-                  if (a[k, 0] * x + a[k, 1] * y < b[k]) t = 0;
-                  break;
-                case 4:
-                  if (a[k, 0] * x + a[k, 1] * y < b[k]) t = 0;
+                  if (a[k, 0] * x + a[k, 1] * y >= b[k]) t = 0;
                   break;
               }
             }
