@@ -1,0 +1,6 @@
+F:\Ilya\Programming\mathModeling\firstTask\bin\Debug\firstTask.exe
+F:\Ilya\Programming\mathModeling\firstTask\bin\Debug\firstTask.pdb
+F:\Ilya\Programming\mathModeling\firstTask\obj\Debug\firstTask.csproj.AssemblyReference.cache
+F:\Ilya\Programming\mathModeling\firstTask\obj\Debug\firstTask.csproj.CoreCompileInputs.cache
+F:\Ilya\Programming\mathModeling\firstTask\obj\Debug\firstTask.exe
+F:\Ilya\Programming\mathModeling\firstTask\obj\Debug\firstTask.pdb
