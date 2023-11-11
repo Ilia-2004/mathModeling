@@ -4,3 +4,9 @@ F:\Ilya\Programming\mathModeling\firstTask\obj\Debug\firstTask.csproj.AssemblyRe
 F:\Ilya\Programming\mathModeling\firstTask\obj\Debug\firstTask.csproj.CoreCompileInputs.cache
 F:\Ilya\Programming\mathModeling\firstTask\obj\Debug\firstTask.exe
 F:\Ilya\Programming\mathModeling\firstTask\obj\Debug\firstTask.pdb
+D:\ИСП-42\Красненков\Математическое моделирование\firstTask\bin\Debug\firstTask.exe
+D:\ИСП-42\Красненков\Математическое моделирование\firstTask\bin\Debug\firstTask.pdb
+D:\ИСП-42\Красненков\Математическое моделирование\firstTask\obj\Debug\firstTask.csproj.AssemblyReference.cache
+D:\ИСП-42\Красненков\Математическое моделирование\firstTask\obj\Debug\firstTask.csproj.CoreCompileInputs.cache
+D:\ИСП-42\Красненков\Математическое моделирование\firstTask\obj\Debug\firstTask.exe
+D:\ИСП-42\Красненков\Математическое моделирование\firstTask\obj\Debug\firstTask.pdb

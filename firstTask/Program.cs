@@ -12,7 +12,7 @@ namespace mathModeling
             return Math.Pow(numerator / denominator, 1.0 / 3.0);
         }
 
-        public static (double, double) SvennsMethod(double x)
+        private static (double, double) _svennsMethod(double x)
         {
             var h = 0.5;
             var solution = F(x);
@@ -54,7 +54,7 @@ namespace mathModeling
 
         public static double FindMinimum(double x)
         {
-            var result = SvennsMethod(x);
+            var result = _svennsMethod(x);
             var a = result.Item1;
             var b = result.Item2;
 
