@@ -1,0 +1,8 @@
+F:\Ilya\Programming\mathModeling\secondTask\bin\Debug\secondTask.exe.config
+F:\Ilya\Programming\mathModeling\secondTask\bin\Debug\secondTask.exe
+F:\Ilya\Programming\mathModeling\secondTask\bin\Debug\secondTask.pdb
+F:\Ilya\Programming\mathModeling\secondTask\obj\Debug\secondTask.csproj.AssemblyReference.cache
+F:\Ilya\Programming\mathModeling\secondTask\obj\Debug\secondTask.csproj.SuggestedBindingRedirects.cache
+F:\Ilya\Programming\mathModeling\secondTask\obj\Debug\secondTask.csproj.CoreCompileInputs.cache
+F:\Ilya\Programming\mathModeling\secondTask\obj\Debug\secondTask.exe
+F:\Ilya\Programming\mathModeling\secondTask\obj\Debug\secondTask.pdb

@@ -10,3 +10,4 @@ D:\ИСП-42\Красненков\Математическое моделиро�
 D:\ИСП-42\Красненков\Математическое моделирование\firstTask\obj\Debug\firstTask.csproj.CoreCompileInputs.cache
 D:\ИСП-42\Красненков\Математическое моделирование\firstTask\obj\Debug\firstTask.exe
 D:\ИСП-42\Красненков\Математическое моделирование\firstTask\obj\Debug\firstTask.pdb
+F:\Ilya\Programming\mathModeling\firstTask\obj\Debug\firstTask.csproj.SuggestedBindingRedirects.cache
