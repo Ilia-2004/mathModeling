@@ -1,15 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace thirdTask
 {
-    internal class Program
+  internal class Program
+  {
+
+
+    /* Main method */
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-        }
+      Console.WriteLine("Hello");
     }
+  }
 }
