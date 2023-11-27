@@ -1,0 +1,7 @@
+D:\isp-42\Krasnenkov\mathModeling\thirdTask\bin\Debug\thirdTask.exe.config
+D:\isp-42\Krasnenkov\mathModeling\thirdTask\bin\Debug\thirdTask.exe
+D:\isp-42\Krasnenkov\mathModeling\thirdTask\bin\Debug\thirdTask.pdb
+D:\isp-42\Krasnenkov\mathModeling\thirdTask\obj\Debug\thirdTask.csproj.AssemblyReference.cache
+D:\isp-42\Krasnenkov\mathModeling\thirdTask\obj\Debug\thirdTask.csproj.CoreCompileInputs.cache
+D:\isp-42\Krasnenkov\mathModeling\thirdTask\obj\Debug\thirdTask.exe
+D:\isp-42\Krasnenkov\mathModeling\thirdTask\obj\Debug\thirdTask.pdb
