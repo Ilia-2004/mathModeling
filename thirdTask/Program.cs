@@ -12,8 +12,8 @@ namespace thirdTask
     private readonly static int d = 256;
 
     /* Methods */
-    // method of Boyer and Moore algorithm
-    private static void s_boyerMooreAlgorithm(String pat, String txt, int q)
+    // method of Rubin Karp algorithm
+    private static void s_rubinKarpAlgorithm(String pat, String txt, int q)
     {
       /* Variables */
       /* pat -> pattern
@@ -70,8 +70,8 @@ namespace thirdTask
       }
     }
 
-    // method of Rubin Karp algorithm
-    private static void s_rubinKarpAlgorithm()
+    // method of Boyer and Moore algorithm
+    private static void s_boyerMooreAlgorithm()
     {
 
     }
@@ -86,8 +86,9 @@ namespace thirdTask
       int q = 101;
 
       // Function Call
+      Console.WriteLine("Поиск алгоритмом Рабина-Карпа:");
       Console.WriteLine($"Текст для поиска: {text}");
-      s_boyerMooreAlgorithm(pat, text, q);
+      s_rubinKarpAlgorithm(pat, text, q);
     }
   }
 }
