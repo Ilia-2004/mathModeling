@@ -1,0 +1,7 @@
+D:\isp-42\Krasnenkov\mathModeling\seventhTask\bin\Debug\seventhTask.exe.config
+D:\isp-42\Krasnenkov\mathModeling\seventhTask\bin\Debug\seventhTask.exe
+D:\isp-42\Krasnenkov\mathModeling\seventhTask\bin\Debug\seventhTask.pdb
+D:\isp-42\Krasnenkov\mathModeling\seventhTask\obj\Debug\seventhTask.csproj.AssemblyReference.cache
+D:\isp-42\Krasnenkov\mathModeling\seventhTask\obj\Debug\seventhTask.csproj.CoreCompileInputs.cache
+D:\isp-42\Krasnenkov\mathModeling\seventhTask\obj\Debug\seventhTask.exe
+D:\isp-42\Krasnenkov\mathModeling\seventhTask\obj\Debug\seventhTask.pdb
