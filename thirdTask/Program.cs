@@ -104,7 +104,7 @@ namespace thirdTask
         then index j will become -1 after the above loop */
         if (j < 0)
         {
-          Console.Write("Шаблонн содержится при сдвиге = {0}\n", s);
+          Console.Write($"Шаблонн содержится при сдвиге = {s}\n");
           s += shift[0];
         }
         else
