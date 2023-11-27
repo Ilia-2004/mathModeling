@@ -94,7 +94,7 @@ internal abstract class Program
     return (a + b) / 2;
   }
 
-  /* Main mehtod */
+  /* Main method */
   public static void Main(string[] args)
   {
     const double x = -1;

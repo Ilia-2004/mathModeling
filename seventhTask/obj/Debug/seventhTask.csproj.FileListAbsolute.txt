@@ -5,3 +5,11 @@ D:\isp-42\Krasnenkov\mathModeling\seventhTask\obj\Debug\seventhTask.csproj.Assem
 D:\isp-42\Krasnenkov\mathModeling\seventhTask\obj\Debug\seventhTask.csproj.CoreCompileInputs.cache
 D:\isp-42\Krasnenkov\mathModeling\seventhTask\obj\Debug\seventhTask.exe
 D:\isp-42\Krasnenkov\mathModeling\seventhTask\obj\Debug\seventhTask.pdb
+F:\Ilya\Programming\mathModeling\seventhTask\bin\Debug\seventhTask.exe.config
+F:\Ilya\Programming\mathModeling\seventhTask\bin\Debug\seventhTask.exe
+F:\Ilya\Programming\mathModeling\seventhTask\bin\Debug\seventhTask.pdb
+F:\Ilya\Programming\mathModeling\seventhTask\obj\Debug\seventhTask.csproj.AssemblyReference.cache
+F:\Ilya\Programming\mathModeling\seventhTask\obj\Debug\seventhTask.csproj.SuggestedBindingRedirects.cache
+F:\Ilya\Programming\mathModeling\seventhTask\obj\Debug\seventhTask.csproj.CoreCompileInputs.cache
+F:\Ilya\Programming\mathModeling\seventhTask\obj\Debug\seventhTask.exe
+F:\Ilya\Programming\mathModeling\seventhTask\obj\Debug\seventhTask.pdb
