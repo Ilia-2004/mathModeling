@@ -15,3 +15,6 @@
 
 # Задание 4
 ![Screen](https://github.com/Ilia-2004/mathModeling/assets/36201691/37dcea35-d2a5-4a80-bedd-c5db8cd89b72)
+
+# Задание 7
+![Screen](https://github.com/Ilia-2004/mathModeling/assets/36201691/72eb14fa-368f-445b-9118-ec10f32841d2)
