@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace fifthTask
 {
   internal class Program
@@ -9,7 +8,7 @@ namespace fifthTask
 
 
      /* Main method */
-     private static void Main(string[] args)
+     private static void Main()
      {
        Console.WriteLine("Hello");
      }
