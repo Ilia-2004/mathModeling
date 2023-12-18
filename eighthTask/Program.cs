@@ -1,14 +1,11 @@
 ﻿using System;
 
-namespace fifthTask;
+namespace eighthTask;
 internal abstract class Program
 {
-  /* Methods */
-
-
   /* Main method */
   public static void Main()
   {
-    Console.WriteLine("Hello");
+    Console.WriteLine();
   }
 }

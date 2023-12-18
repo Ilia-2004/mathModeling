@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 
 namespace seventhTask;
-
 internal abstract class Program
 {
+  /* Constant's */
   private const int V = 9;
 
-  /* Support methods */
+  #region SupportMethods
   // find the max distance
-  private static int s_maxDistance(IReadOnlyList<int> dist, IReadOnlyList<bool> sptSet)
+  private static int s_maxDistanceMethod(IReadOnlyList<int> dist, IReadOnlyList<bool> sptSet)
   {
     // Initialize max value
     int max = int.MinValue, maxIndex = -1;
@@ -35,10 +35,10 @@ internal abstract class Program
     foreach (var vertex in path)
       Console.WriteLine("B" + (vertex + 1));
   }
-
-  /* Methods */
-  // the method of dijkstra
-  private static void s_dijkstra(int[,] graph, int src)
+  #endregion
+  
+  /* Dijkstra method */
+  private static void s_dijkstraMethod(int[,] graph, int src)
   {
     var dist = new int[V]; // The output array. dist[i]
     // will hold the maximum
@@ -69,7 +69,7 @@ internal abstract class Program
       // from the set of vertices not yet
       // processed. u is always equal to
       // src in the first iteration.
-      var u = s_maxDistance(dist, sptSet);
+      var u = s_maxDistanceMethod(dist, sptSet);
 
       // Mark the picked vertex as processed
       sptSet[u] = true;
@@ -102,7 +102,7 @@ internal abstract class Program
   }
 
   /* Main method */
-  private static void Main()
+  public static void Main()
   {
     /* Let us create the example
     graph discussed above */
@@ -123,6 +123,6 @@ internal abstract class Program
       {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 8, 0}
     };
 
-    s_dijkstra(graph, 0);
+    s_dijkstraMethod(graph, 0);
   }
 }

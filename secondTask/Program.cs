@@ -4,7 +4,9 @@ using System.Collections.Generic;
 namespace secondTask;
 internal abstract class Program
 {
-  private static int s_linearSearch(IList<int> arr, int value)
+  #region Methods
+  /* Linear search method */
+  private static int s_linearSearchMethod(IList<int> arr, int value)
   {
     var last = arr[arr.Count - 1];
     arr[arr.Count - 1] = value;
@@ -14,18 +16,23 @@ internal abstract class Program
             
     arr[arr.Count - 1] = last;
     if ((i < arr.Count - 1) || (value == last)) return i;
-    else return -1;
+    return -1;
   }
 
-  private static void s_quickSort(int[] arr, int left, int right)
-  { 
-    if (left >= right) return;
-    var pivot = s_partition(arr, left, right);
-    s_quickSort(arr, left, pivot - 1);
-    s_quickSort(arr, pivot + 1, right);
+  /* Quick sorting method */
+  private static void s_quickSortingMethod(int[] arr, int left, int right)
+  {
+    while (true)
+    {
+      if (left >= right) return;
+      var pivot = s_partitionMethod(arr, left, right);
+      s_quickSortingMethod(arr, left, pivot - 1);
+      left = pivot + 1;
+    }
   }
 
-  private static int s_partition(int[] arr, int left, int right)
+  /* Partition method */
+  private static int s_partitionMethod(int[] arr, int left, int right)
   {
     var pivot = arr[right];
     var i = left - 1;
@@ -44,6 +51,7 @@ internal abstract class Program
 
   private static void s_swap(ref int a, ref int b) => (a, b) = (b, a);
 
+  /* Interpolation search method */
   private static int s_interpolationSearch(IReadOnlyList<int> arr, int value)
   {
     var low = 0;
@@ -59,6 +67,7 @@ internal abstract class Program
       
     return -1;
   }
+  #endregion
 
   /* Main method */
   private static void Main()
@@ -72,14 +81,14 @@ internal abstract class Program
     Console.WriteLine("Search value: {0}", searchValue);
 
     Console.WriteLine("\nLinear search with barrier:");
-    var index = s_linearSearch(unsortedArray, searchValue);
+    var index = s_linearSearchMethod(unsortedArray, searchValue);
     if (index == -1)
       Console.WriteLine("Value {0} not found in the array.", searchValue);
     else
       Console.WriteLine("Value {0} found at index {1}.", searchValue, index);
 
     Console.WriteLine("\nQuick sort:");
-    s_quickSort(unsortedArray, 0, unsortedArray.Length - 1);
+    s_quickSortingMethod(unsortedArray, 0, unsortedArray.Length - 1);
     Console.WriteLine("Sorted array: [{0}]", string.Join(", ", unsortedArray));
 
     Console.WriteLine("\nInterpolation search:");

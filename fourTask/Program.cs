@@ -3,11 +3,11 @@
 namespace fourTask;
 internal abstract class Program
 {
-  // function method
-  private static float s_function(float x1, float x2) => (2 * x1) + (3 * x2);
+  /* Function method */
+  private static float s_functionMethod(float x1, float x2) => (2 * x1) + (3 * x2);
     
   /* Main method */
-  public static void Main(string[] args)
+  public static void Main()
   {
     const int n = 4;
     var a = new float[20, 2];
@@ -50,8 +50,8 @@ internal abstract class Program
         Console.WriteLine(t);
 
         if (t > 0) result = true;
-        if ((!result) && ((!(s_function(x, y) > max)))) continue;
-        max = s_function(x, y);
+        if ((!result) && ((!(s_functionMethod(x, y) > max)))) continue;
+        max = s_functionMethod(x, y);
         x1 = x;
         x2 = y;
       }

@@ -4,12 +4,13 @@ using System.Collections.Generic;
 namespace thirdTask;
 internal abstract class Program
 {
+  /* Constant's */
   // d is the number of characters in the input alphabet
   private const int D = 256;
 
-  /* Methods */
-  // method of Rubin Karp algorithm
-  private static void s_rubinKarpAlgorithm(string pat, string txt, int q)
+  #region Methods
+  /* Rubin Karp algorithm method */
+  private static void s_rubinKarpAlgorithmMethod(string pat, string txt, int q)
   {
     /* Variables */
     /* pat -> pattern
@@ -65,8 +66,8 @@ internal abstract class Program
     }
   }
 
-  // method of Boyer and Moore algorithm
-  private static void s_boyerMooreAlgorithm(IReadOnlyList<char> text, char[] pat)
+  /* Boyer and Moore algorithm method */
+  private static void s_boyerMooreAlgorithmMethod(IReadOnlyList<char> text, char[] pat)
   {
     // s is shift of the pattern 
     // with respect to text
@@ -108,9 +109,10 @@ internal abstract class Program
         s += shift[j + 1];
     }
   }
-        
-  /* Support methods */
-  //Preprocessing for case 2
+  #endregion
+
+  #region SupportMethods
+  // preprocessing for case 2
   private static void s_preprocessSecondCase(IList<int> shift, IReadOnlyList<int> bpos, int m)
   {
     int i;
@@ -131,6 +133,7 @@ internal abstract class Program
     }
   }
 
+  // preprocess suffix method
   private static void s_preprocessStrongSuffix(IList<int> shift, IList<int> bpos, IReadOnlyList<char> pat, int m)
   {
     // m is the length of pattern 
@@ -161,9 +164,10 @@ internal abstract class Program
       bpos[i] = j;
     }
   }
-
+  #endregion
+  
   /* Main method */
-  private static void Main()
+  public static void Main()
   {
     const string text = "Какой-то текст в строке";
     const string pat = "то";
@@ -174,12 +178,12 @@ internal abstract class Program
     // Function Call
     Console.WriteLine("Поиск алгоритмом Рабина-Карпа:");
     Console.WriteLine($"Текст для поиска: {text}");
-    s_rubinKarpAlgorithm(pat, text, q);
+    s_rubinKarpAlgorithmMethod(pat, text, q);
     Console.WriteLine();
 
     Console.WriteLine("Поиск алгоритмом Бойера и Мура:");  
     var text2 = "ABAAAABAACD".ToCharArray();
     var pat2 = "ABA".ToCharArray();
-    s_boyerMooreAlgorithm(text2, pat2);
+    s_boyerMooreAlgorithmMethod(text2, pat2);
   }
 }
