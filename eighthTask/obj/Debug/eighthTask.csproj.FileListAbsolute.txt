@@ -1,0 +1,6 @@
+F:\Ilya\Programming\mathModeling\eighthTask\bin\Debug\eighthTask.exe
+F:\Ilya\Programming\mathModeling\eighthTask\bin\Debug\eighthTask.pdb
+F:\Ilya\Programming\mathModeling\eighthTask\obj\Debug\eighthTask.csproj.AssemblyReference.cache
+F:\Ilya\Programming\mathModeling\eighthTask\obj\Debug\eighthTask.csproj.CoreCompileInputs.cache
+F:\Ilya\Programming\mathModeling\eighthTask\obj\Debug\eighthTask.exe
+F:\Ilya\Programming\mathModeling\eighthTask\obj\Debug\eighthTask.pdb
