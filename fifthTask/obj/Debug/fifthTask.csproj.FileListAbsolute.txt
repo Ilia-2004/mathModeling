@@ -1,0 +1,7 @@
+F:\Ilya\Programming\mathModeling\fifthTask\bin\Debug\fifthTask.exe.config
+F:\Ilya\Programming\mathModeling\fifthTask\bin\Debug\fifthTask.exe
+F:\Ilya\Programming\mathModeling\fifthTask\bin\Debug\fifthTask.pdb
+F:\Ilya\Programming\mathModeling\fifthTask\obj\Debug\fifthTask.csproj.AssemblyReference.cache
+F:\Ilya\Programming\mathModeling\fifthTask\obj\Debug\fifthTask.csproj.CoreCompileInputs.cache
+F:\Ilya\Programming\mathModeling\fifthTask\obj\Debug\fifthTask.exe
+F:\Ilya\Programming\mathModeling\fifthTask\obj\Debug\fifthTask.pdb
