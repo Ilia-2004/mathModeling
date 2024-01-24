@@ -4,3 +4,9 @@ D:\ИСП-42\Красненков\Математическое моделиро�
 D:\ИСП-42\Красненков\Математическое моделирование\fourTask\obj\Debug\fourTask.csproj.CoreCompileInputs.cache
 D:\ИСП-42\Красненков\Математическое моделирование\fourTask\obj\Debug\fourTask.exe
 D:\ИСП-42\Красненков\Математическое моделирование\fourTask\obj\Debug\fourTask.pdb
+F:\Ilya\Programming\mathModeling\fourTask\bin\Debug\fourTask.exe
+F:\Ilya\Programming\mathModeling\fourTask\bin\Debug\fourTask.pdb
+F:\Ilya\Programming\mathModeling\fourTask\obj\Debug\fourTask.csproj.AssemblyReference.cache
+F:\Ilya\Programming\mathModeling\fourTask\obj\Debug\fourTask.csproj.CoreCompileInputs.cache
+F:\Ilya\Programming\mathModeling\fourTask\obj\Debug\fourTask.exe
+F:\Ilya\Programming\mathModeling\fourTask\obj\Debug\fourTask.pdb

@@ -1,0 +1,6 @@
+F:\Ilya\Programming\mathModeling\05-Ivan\bin\Debug\_05_Ivan.exe
+F:\Ilya\Programming\mathModeling\05-Ivan\bin\Debug\_05_Ivan.pdb
+F:\Ilya\Programming\mathModeling\05-Ivan\obj\Debug\05-Ivan.csproj.AssemblyReference.cache
+F:\Ilya\Programming\mathModeling\05-Ivan\obj\Debug\05-Ivan.csproj.CoreCompileInputs.cache
+F:\Ilya\Programming\mathModeling\05-Ivan\obj\Debug\_05_Ivan.exe
+F:\Ilya\Programming\mathModeling\05-Ivan\obj\Debug\_05_Ivan.pdb
